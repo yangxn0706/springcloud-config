@@ -1,21 +1,2 @@
-hystrix:
-  threadpool:
-    routesUserThread: #对应@HystrixCommand注解中threadPoolKey的属性值，默认为default
-      coreSize: 200 #线程池的核心线程数及并发执行的最大线程数
-      maximumSize: 200
-      allowMaximumSizeToDivergeFromCoreSize: true
-      maxQueueSize: 400
-      queueSizeRejectionThreshold: 200
-    usersInformationThread: #对应@HystrixCommand注解中threadPoolKey的属性值，默认为default
-      coreSize: 200 #线程池的核心线程数及并发执行的最大线程数
-      maximumSize: 200
-      allowMaximumSizeToDivergeFromCoreSize: true
-      maxQueueSize: 400
-      queueSizeRejectionThreshold: 200
-    default: 
-      coreSize: 100 #线程池的核心线程数及并发执行的最大线程数
-      maximumSize: 150
-      allowMaximumSizeToDivergeFromCoreSize: true
-      maxQueueSize: 200
-      queueSizeRejectionThreshold: 100
+
       
